@@ -5271,6 +5271,9 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0084;
         public static final int CommonDialog=0x7f0b00cf;
         public static final int MyDialogStyle=0x7f0b00d0;
+        /** <item name="android:paddingLeft">@dimen/abc_action_bar_default_padding_start_material</item>
+<item name="android:paddingRight">@dimen/abc_action_bar_default_padding_end_material</item>
+         */
         public static final int MyToolbar=0x7f0b00d1;
         public static final int Platform_AppCompat=0x7f0b001e;
         public static final int Platform_AppCompat_Light=0x7f0b001f;

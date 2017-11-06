@@ -4,20 +4,20 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\tab_contest_light.png"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_message_selected.png",
-        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_message_selected.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tabbar_compose_icon_add_highlighted.png",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\tabbar_compose_icon_add_highlighted.png"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_assistant_light.png",
-        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\tab_assistant_light.png"
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_message_selected.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_message_selected.png"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tabbar_compose_lbs.png",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\tabbar_compose_lbs.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_assistant_light.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\tab_assistant_light.png"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tabbar_compose_background_icon_close.png",
@@ -72,12 +72,12 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_star_normal.png"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_contacts_normal.png",
-        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_contacts_normal.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_counter_light.png",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\tab_counter_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_contacts_normal.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_contacts_normal.png"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_ic_richpush_actionbar_back.png",

@@ -3,11 +3,13 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:gravity="center"
-              android:orientation="vertical">
-    <com.baidu.mapapi.map.MapView
+              android:orientation="vertical"
+    android:background="#ffffff">
+    <com.baidu.mapapi.map.TextureMapView
         android:id="@+id/bmapView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:clickable="true" />
+        android:clickable="true"
+        android:background="#ffffff"/>
 
 </FrameLayout>

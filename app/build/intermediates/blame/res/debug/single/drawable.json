@@ -56,12 +56,12 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_menu_text_selector.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_send_toggle_selector.xml",
-        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_send_toggle_selector.xml"
-    },
-    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_mask.png",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\scan_mask.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_send_toggle_selector.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_send_toggle_selector.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_voice.xml",
@@ -348,20 +348,20 @@
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\36fd1871def348896ea3b41196662cbd8f1884b0\\output\\res\\drawable\\smssdk_edittext_bg_selector.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_white_bg_shape.xml",
-        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_white_bg_shape.xml"
-    },
-    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabbar_compose_bg_add_selector.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tabbar_compose_bg_add_selector.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_yes_selector.xml",
-        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_ic_yes_selector.xml"
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_white_bg_shape.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_white_bg_shape.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tab_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_yes_selector.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_ic_yes_selector.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_round_green_selector.xml",

@@ -20,10 +20,11 @@ import android.widget.TextView;
 
 import com.iyoho.social.Entry.MessageEvent;
 import com.iyoho.social.R;
-import com.iyoho.social.fragment.maintab.tab.FindFragment;
-import com.iyoho.social.fragment.maintab.tab.HomeFragment;
-import com.iyoho.social.fragment.maintab.tab.MessageFragment;
-import com.iyoho.social.fragment.maintab.tab.MineFragment;
+import com.iyoho.social.fragment.tab.FindFragment;
+import com.iyoho.social.fragment.tab.HomeFragment;
+import com.iyoho.social.fragment.tab.MessageFragment;
+import com.iyoho.social.fragment.tab.MineFragment;
+import com.iyoho.social.view.CustomViewPager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,11 +37,11 @@ import static io.rong.imkit.utils.SystemUtils.getCurProcessName;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,View.OnTouchListener,TabHost.OnTabChangeListener{
 
     private FragmentTabHost mTabHost;
-    private ViewPager mViewPager;
+    private CustomViewPager mViewPager;
     private List<Fragment> mFragmentList;
     private LinearLayout sendTagLayout;
-    private Class mClass[] = {FindFragment.class, FindFragment.class, null,FindFragment.class, MineFragment.class};
-    private Fragment mFragment[] = {new FindFragment(), new FindFragment(),null, new FindFragment(), new MineFragment()};
+    private Class mClass[] = {HomeFragment.class, FindFragment.class, null,FindFragment.class, MineFragment.class};
+    private Fragment mFragment[] = {new HomeFragment(), new FindFragment(),null, new FindFragment(), new MineFragment()};
     private String mTitles[] = {"搭伴", "发现", "消息", "我的"};
 
     private int mImages[] = {
@@ -83,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         connect("XEb4SeUAR9OK5INscXMpeTBwF6b3ugcqxL5xchQAHbppyT/nVUusULlm1uSFR9wF8icXprLw8TG+mY0O3o46S/TIL0ph7OKF");
 
         mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
-        mViewPager = (ViewPager) findViewById(R.id.view_pager);
+        mViewPager = (CustomViewPager) findViewById(R.id.view_pager);
         sendTagLayout= (LinearLayout) findViewById(R.id.sendTagLayout);
         mFragmentList = new ArrayList<Fragment>();
 
@@ -111,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-
+        mViewPager.setOffscreenPageLimit(4);
         mPanelView = findViewById(R.id.panel);
         mCloseButton = findViewById(R.id.close);
         mIdeaButton = findViewById(R.id.idea_btn);

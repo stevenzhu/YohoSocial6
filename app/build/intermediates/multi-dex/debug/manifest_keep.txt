@@ -1,9 +1,9 @@
 # view AndroidManifest.xml #generated:54
 -keep class com.iyoho.social.base.IBaseApplication { <init>(...); }
 
-# view AndroidManifest.xml #generated:387
+# view AndroidManifest.xml #generated:391
 -keep class io.rong.push.PushReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:382
+# view AndroidManifest.xml #generated:386
 -keep class io.rong.push.PushService { <init>(...); }
 

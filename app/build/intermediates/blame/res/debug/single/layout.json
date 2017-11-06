@@ -12,12 +12,12 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_item_text_message_evaluate.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_refresh_list_view.xml",
-        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_refresh_list_view.xml"
-    },
-    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_main.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\view_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_refresh_list_view.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_refresh_list_view.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
