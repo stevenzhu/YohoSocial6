@@ -67,7 +67,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.iyoho.social.activity.MainTabActivity"
+            android:name="com.iyoho.social.activity.MainActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -81,7 +81,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.iyoho.social.activity.MainActivity"
+            android:name="com.iyoho.social.activity.MainTabActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.iyoho.social.activity.MainTestActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.iyoho.social.activity.EventBus1Activity"

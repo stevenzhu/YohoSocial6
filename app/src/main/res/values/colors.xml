@@ -10,4 +10,9 @@
     <color name="viewfinder_mask">#22000000</color>
     <color name="capture_text_cover_bg">#99535353</color>
     <color name="color_bfbfbf">#bfbfbf</color>
+
+    <color name="titleColor">#757575</color>
+    <color name="titleColorSelected">#F54D33</color>
+    <color name="add_bg_normal">#ff8200</color>
+    <color name="add_bg_pressed">#d46403</color>
 </resources>

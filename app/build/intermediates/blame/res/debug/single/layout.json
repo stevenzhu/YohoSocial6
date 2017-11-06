@@ -16,6 +16,10 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_refresh_list_view.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_main.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\view_main.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_conversation_notification_container.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_conversation_notification_container.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_main.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\activity_test_main.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -50,6 +58,10 @@
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_group_information_notification_message.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_item_group_information_notification_message.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_fragment.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\center_fragment.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_plugin_location_activity.xml",
@@ -124,6 +136,10 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_ac_file_list.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_item.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\tab_item.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\layout\\notification_template_custom_big.xml"
     },
@@ -152,6 +168,10 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_cs_item_single_choice.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_fragment.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\message_fragment.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_leave_message.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_cs_leave_message.xml"
     },
@@ -172,8 +192,8 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_ext_indicator.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_star.xml",
-        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\fragment_star.xml"
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fragment_base_setting.xml",
@@ -202,6 +222,10 @@
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_progress.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_item_progress.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\report_fragment.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\report_fragment.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_single_imgage.xml",
@@ -416,6 +440,10 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\layout_classic_footer.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_center_item.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\tab_center_item.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
@@ -548,6 +576,10 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_picsel_grid_camera.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_base_conversation.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_item_base_conversation.xml"
     },
@@ -568,12 +600,20 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\layout\\fragment_image_preview.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_fragment.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_pic_popup_window.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_pic_popup_window.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mine_fragment.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\mine_fragment.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_emoticon_tab_item.xml",
@@ -692,6 +732,10 @@
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\fragment_find.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_location_real_time_activity.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\layout\\rc_location_real_time_activity.xml"
     },
@@ -706,6 +750,10 @@
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_folder.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\layout\\item_folder.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_add.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\layout\\view_add.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_alert_warning.xml",

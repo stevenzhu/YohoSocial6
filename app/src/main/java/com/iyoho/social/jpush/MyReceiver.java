@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 
 import com.iyoho.social.activity.EventBus2Activity;
-import com.iyoho.social.activity.MainActivity;
 import com.iyoho.social.utils.ExampleUtil;
 import com.iyoho.social.utils.JPushUtils;
 
@@ -17,7 +16,6 @@ import org.json.JSONObject;
 import java.util.Iterator;
 
 import cn.jpush.android.api.JPushInterface;
-import cn.jpush.android.ui.PushActivity;
 
 /**
  * 自定义接收器

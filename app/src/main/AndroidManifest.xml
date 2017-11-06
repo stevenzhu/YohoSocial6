@@ -50,12 +50,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.MainTabActivity"
-            android:screenOrientation="portrait">
+        <activity android:name=".activity.MainActivity"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
-
                 <category android:name="android.intent.category.DEFAULT"/>
 
                 <data
@@ -63,10 +61,13 @@
                     android:pathPrefix="/push_message"
                     android:scheme="rong" />
             </intent-filter>
-
         </activity>
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.MainTabActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activity.MainTestActivity"
             android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.EventBus1Activity"

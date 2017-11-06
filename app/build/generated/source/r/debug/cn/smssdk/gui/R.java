@@ -36,15 +36,15 @@ public final class R {
         public static final int smssdk_country_group_z = 0x7f090019;
     }
     public static final class color {
-        public static final int smssdk_black = 0x7f0d007e;
-        public static final int smssdk_gray = 0x7f0d007f;
-        public static final int smssdk_gray_press = 0x7f0d0080;
-        public static final int smssdk_lv_item_divider = 0x7f0d0081;
-        public static final int smssdk_lv_item_selector = 0x7f0d0082;
-        public static final int smssdk_lv_title_color = 0x7f0d0083;
-        public static final int smssdk_lv_tv_color = 0x7f0d0084;
-        public static final int smssdk_transparent = 0x7f0d0085;
-        public static final int smssdk_white = 0x7f0d0086;
+        public static final int smssdk_black = 0x7f0d0080;
+        public static final int smssdk_gray = 0x7f0d0081;
+        public static final int smssdk_gray_press = 0x7f0d0082;
+        public static final int smssdk_lv_item_divider = 0x7f0d0083;
+        public static final int smssdk_lv_item_selector = 0x7f0d0084;
+        public static final int smssdk_lv_title_color = 0x7f0d0085;
+        public static final int smssdk_lv_tv_color = 0x7f0d0086;
+        public static final int smssdk_transparent = 0x7f0d0087;
+        public static final int smssdk_white = 0x7f0d0088;
     }
     public static final class drawable {
         public static final int smssdk_back_arrow = 0x7f0201a9;
@@ -64,8 +64,8 @@ public final class R {
         public static final int smssdk_dialog_back = 0x7f0201b7;
         public static final int smssdk_dialog_bg = 0x7f0201b8;
         public static final int smssdk_dialog_btn_back = 0x7f0201b9;
-        public static final int smssdk_dialog_btn_nor = 0x7f020252;
-        public static final int smssdk_dialog_btn_pre = 0x7f020253;
+        public static final int smssdk_dialog_btn_nor = 0x7f02026a;
+        public static final int smssdk_dialog_btn_pre = 0x7f02026b;
         public static final int smssdk_edittext_bg_selector = 0x7f0201ba;
         public static final int smssdk_input_bg_focus = 0x7f0201bb;
         public static final int smssdk_input_bg_normal = 0x7f0201bc;

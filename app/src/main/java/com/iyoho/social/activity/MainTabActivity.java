@@ -2,7 +2,6 @@ package com.iyoho.social.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -11,32 +10,22 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TabHost;
-import android.widget.Toast;
 
-import com.baidu.location.BDAbstractLocationListener;
-import com.baidu.location.BDLocation;
 import com.iyoho.social.Entry.ColorShades;
 import com.iyoho.social.Entry.MessageEvent;
 import com.iyoho.social.R;
-import com.iyoho.social.activity.message.ConversationActivity;
-import com.iyoho.social.activity.welcome.WelcomeActivity;
 import com.iyoho.social.base.IBaseActivity;
-import com.iyoho.social.fragment.maintab.HomeFragment;
-import com.iyoho.social.fragment.maintab.MessageFragment;
-import com.iyoho.social.fragment.maintab.StarFragment;
+import com.iyoho.social.fragment.maintab.tab.FindFragment;
+import com.iyoho.social.fragment.maintab.tab.HomeFragment;
+import com.iyoho.social.fragment.maintab.tab.MessageFragment;
 import com.iyoho.social.utils.EventBusUtils;
-import com.iyoho.social.utils.MapUtils;
-import com.iyoho.social.utils.PermissionDispatcherHelper;
 import com.iyoho.social.utils.SPUtils;
 import com.iyoho.social.view.TypeFaceTextView;
 import com.yoho.glide.GlideImageView;
 
-import java.util.Map;
-
 import im.quar.autolayout.view.AutoLinearLayout;
 import im.quar.autolayout.view.AutoRelativeLayout;
 import io.rong.imkit.RongIM;
-import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imlib.RongIMClient;
 
 import static io.rong.imkit.utils.SystemUtils.getCurProcessName;
@@ -62,7 +51,7 @@ public class MainTabActivity extends IBaseActivity implements TabHost.OnTabChang
     private ColorShades mColorShades;
     @Override
     public Bundle getBundle() throws Exception {
-        return getBundle(MainActivity.class);
+        return getBundle(MainTestActivity.class);
     }
 
     @Override
@@ -138,7 +127,7 @@ public class MainTabActivity extends IBaseActivity implements TabHost.OnTabChang
                 case 2:
                     msgCount.setText("");
                     msgCount.setVisibility(View.GONE);
-                    mTabHost.addTab(messageTabSpec, StarFragment.class, bundle);
+                    mTabHost.addTab(messageTabSpec, FindFragment.class, bundle);
                     break;
             }
         }

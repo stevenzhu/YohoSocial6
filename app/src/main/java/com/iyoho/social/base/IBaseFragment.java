@@ -22,7 +22,7 @@ public abstract class IBaseFragment extends Fragment implements View.OnClickList
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-              View  view = LayoutInflater.from(mContext).inflate(initLayout(), container, false);
+              View  view = inflater.inflate(initLayout(), container, false);
                 initView(view);
                 initData();
                 initEvent();

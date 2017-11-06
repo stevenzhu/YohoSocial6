@@ -28,12 +28,12 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\retry_btn_selector.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_sel_picsel_toolbar_send.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_sel_picsel_toolbar_send.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
@@ -56,16 +56,20 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_menu_text_selector.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_voice.xml",
-        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_btn_voice.xml"
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_send_toggle_selector.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_send_toggle_selector.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_mask.png",
         "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\scan_mask.png"
     },
     {
-        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_send_toggle_selector.xml",
-        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_send_toggle_selector.xml"
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_voice.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_btn_voice.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_title_color.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tab_title_color.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -216,6 +220,10 @@
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\36fd1871def348896ea3b41196662cbd8f1884b0\\output\\res\\drawable\\smssdk_dialog_btn_back.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabbar_compose_icon_add_selector.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tabbar_compose_icon_add_selector.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
@@ -284,6 +292,10 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_bg_mentionlist_item.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_message.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tab_message.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_menu_keyboard_selector.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_menu_keyboard_selector.xml"
     },
@@ -340,8 +352,16 @@
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_white_bg_shape.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabbar_compose_bg_add_selector.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tabbar_compose_bg_add_selector.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_yes_selector.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\drawable\\rc_ic_yes_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tab_home.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_round_green_selector.xml",
@@ -394,6 +414,14 @@
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_button.xml",
         "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\radio_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_report.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tab_report.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_mine.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable\\tab_mine.xml"
     },
     {
         "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_up.xml",

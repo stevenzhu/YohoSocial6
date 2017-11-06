@@ -25,7 +25,7 @@ public class EventBus2Activity extends IBaseActivity {
 
     @Override
     public int initLayout() {
-        return R.layout.activity_main;
+        return R.layout.activity_test_main;
     }
 
     @Override
@@ -54,7 +54,7 @@ public class EventBus2Activity extends IBaseActivity {
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.intoOKhttpTextView:
-                EventBusUtils.post(new MessageEvent(MainActivity.class,"main2"));
+                EventBusUtils.post(new MessageEvent(MainTestActivity.class,"main2"));
                 PermissionDispatcherHelper.getInstance().checkCamera(EventBus2Activity.this, new PermissionDispatcherHelper.OnPermissionListener() {
                     @Override
                     public void onPermissionCompleted() {

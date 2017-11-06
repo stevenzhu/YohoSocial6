@@ -3,4 +3,8 @@
     <!--swipe to layout -->
     <dimen name="load_more_footer_height_classic">45dp</dimen>
     <dimen name="refresh_header_height_twitter">45dp</dimen>
+    <dimen name="fab_margin">32px</dimen>
+    <dimen name="sendIconSize">120px</dimen>
+    <dimen name="sendIconMarginSize">20px</dimen>
+    <dimen name="actionBarSize">100px</dimen>
 </resources>

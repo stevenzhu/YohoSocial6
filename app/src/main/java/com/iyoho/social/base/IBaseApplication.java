@@ -1,11 +1,8 @@
 package com.iyoho.social.base;
 
-import android.app.Application;
 import android.os.Environment;
 
 import com.baidu.mapapi.SDKInitializer;
-import com.iyoho.social.*;
-import com.iyoho.social.activity.MainActivity;
 import com.iyoho.social.utils.AndroidUtilsCode;
 import com.iyoho.social.utils.JPushUtils;
 import com.mob.MobApplication;
@@ -20,7 +17,6 @@ import com.umeng.socialize.UMShareAPI;
 
 import java.io.File;
 
-import cn.jpush.android.api.JPushInterface;
 import io.rong.imkit.RongIM;
 
 /**

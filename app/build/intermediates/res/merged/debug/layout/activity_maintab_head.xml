@@ -5,7 +5,7 @@
     <im.quar.autolayout.view.AutoRelativeLayout
         android:id="@+id/headLayout"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="@dimen/actionBarSize"
         android:background="@color/colorPrimary">
 
         <com.yoho.glide.GlideImageView
