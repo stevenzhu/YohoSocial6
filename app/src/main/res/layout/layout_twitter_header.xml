@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iyoho.social.view.header.TwitterRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#efeef4"
+    android:layout_height="wrap_content">
+    <im.quar.autolayout.view.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <im.quar.autolayout.view.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/load_more_footer_height_classic"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ivArrow"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48dp"
+                android:layout_toLeftOf="@+id/tvRefresh"
+                android:background="@drawable/pull_arrow"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/ivSuccess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48dp"
+                android:layout_toLeftOf="@+id/tvRefresh"
+                android:background="@drawable/refresh_success"/>
+
+            <com.iyoho.social.view.RotateLoading
+                xmlns:ab="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/progressbar"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tvRefresh"
+                ab:loading_color="#d8d8d8"
+                ab:loading_speed="10"
+                ab:loading_width="1.5dp"/>
+
+            <com.iyoho.social.view.TypeFaceTextView
+                android:id="@+id/tvRefresh"
+                android:layout_width="165dp"
+                android:layout_height="@dimen/load_more_footer_height_classic"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="#d8d8d8"
+                app:typeFace="AB"/>
+        </im.quar.autolayout.view.AutoRelativeLayout>
+    </im.quar.autolayout.view.AutoLinearLayout>
+
+</com.iyoho.social.view.header.TwitterRefreshHeaderView>

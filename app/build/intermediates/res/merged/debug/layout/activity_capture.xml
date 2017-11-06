@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/capture_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="#ffffffff"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SurfaceView
+        android:id="@+id/capture_preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <im.quar.autolayout.view.AutoLinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:weightSum="5.0">
+
+        <im.quar.autolayout.view.AutoLinearLayout
+            android:id="@+id/topLinear"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="25px"
+                android:layout_height="40px"
+                android:layout_marginLeft="25px"
+                android:background="#00ff00" />
+
+            <com.iyoho.social.view.TypeFaceTextView
+                android:id="@+id/capture_top_hint"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="60px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="QR Code Scan"
+                android:textColor="@android:color/white"
+                android:textSize="50px"
+                app:typeFace="AB"
+                />
+        </im.quar.autolayout.view.AutoLinearLayout>
+    </im.quar.autolayout.view.AutoLinearLayout>
+
+    <com.iyoho.social.view.TypeFaceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topLinear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+        android:lineSpacingExtra="55px"
+        android:text="@string/scanner_description"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/capture_flashlight"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/llLayout"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/scanning_light_off" />
+
+    <im.quar.autolayout.view.AutoLinearLayout
+        android:id="@+id/llLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topLinear"
+        android:layout_marginTop="470dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:visibility="gone">
+
+
+        <im.quar.autolayout.view.AutoLinearLayout
+            android:id="@+id/capture_scan_photo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:background="#99000000"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp"
+                android:minHeight="25dp"
+                android:minWidth="25dp"
+                android:src="@drawable/scanning_album" />
+
+            <com.iyoho.social.view.TypeFaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:singleLine="true"
+                android:text="从相册选"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                app:typeFace="AB"
+                />
+        </im.quar.autolayout.view.AutoLinearLayout>
+    </im.quar.autolayout.view.AutoLinearLayout>
+
+    <com.iyoho.social.scanner.view.ViewfinderView
+        android:id="@+id/capture_viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="#00000000"/>
+</merge>

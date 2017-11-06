@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IyohoSocialAndroid</string>
+    <string name="parsing_failure">解析失败.</string>
+    <string name="scanner_description">请将二维码放在方框内.</string>
+    <string name="msg_camera_framework_bug">抱歉，启动相机设备失败.</string>
+    <string name="msg_ok">好的</string>
+    <!--swipe to layout-->
+    <!--RefreshHeader-->
+    <string name="refreshing">Refreshing</string>
+    <string name="swipe_to_refresh">Swipe to refresh</string>
+    <string name="complete">Complete</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <!--RefreshFoot-->
+    <string name="release_to_load_more">Release to load more</string>
+    <string name="swipe_to_load_more">Swipe to load more</string>
+    <string name="loading_more">Loading more</string>
+    <!--Jpush-->
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+</resources>

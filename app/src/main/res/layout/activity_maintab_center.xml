@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<im.quar.autolayout.view.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainCenterLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_maintab">
+
+    <!--Title-->
+   <include layout="@layout/activity_maintab_head"/>
+
+    <im.quar.autolayout.view.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <im.quar.autolayout.view.AutoFrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"/>
+        <!--Line-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#7a7a7a"/>
+        <android.support.v4.app.FragmentTabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dip"/>
+    </im.quar.autolayout.view.AutoLinearLayout>
+</im.quar.autolayout.view.AutoLinearLayout>

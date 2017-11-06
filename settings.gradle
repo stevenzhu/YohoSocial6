@@ -1,0 +1,2 @@
+include ':app', ':imgselectlibrary', ':GlideImageView', ':swipetoloadlayoutlibrary', ':IMLib', ':IMKit'
+project(':swipetoloadlayoutlibrary').projectDir = new File('swipetoloadlibrary')

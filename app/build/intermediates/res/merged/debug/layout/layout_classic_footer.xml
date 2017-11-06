@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.iyoho.social.view.footer.ClassicLoadMoreFooterView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/load_more_footer_height_classic">
+
+        <com.iyoho.social.view.RotateLoading
+            xmlns:ab="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progressbar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvLoadMore"
+            ab:loading_color="#d8d8d8"
+            ab:loading_speed="10"
+            ab:loading_width="1.5dp"/>
+
+        <ImageView
+            android:id="@+id/ivSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/tvLoadMore"/>
+
+        <com.iyoho.social.view.TypeFaceTextView
+            android:id="@+id/tvLoadMore"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/loading_more"
+            android:textColor="#d8d8d8"
+            app:typeFace="AR"/>
+    </RelativeLayout>
+</com.iyoho.social.view.footer.ClassicLoadMoreFooterView>

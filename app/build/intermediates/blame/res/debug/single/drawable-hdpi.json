@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_star_selected.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_star_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_ic_richpush_actionbar_divider.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\jpush_ic_richpush_actionbar_divider.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_message_selected.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_message_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_message_normal.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_message_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_star_normal.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_star_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_contacts_normal.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_contacts_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_ic_richpush_actionbar_back.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\jpush_ic_richpush_actionbar_back.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nvg_contacts_selected.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\drawable-hdpi\\nvg_contacts_selected.png"
+    }
+]

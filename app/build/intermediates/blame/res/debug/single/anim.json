@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\down_out.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\anim\\down_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_down.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\anim\\rotate_down.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\up_in.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\anim\\up_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_up.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\anim\\rotate_up.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    }
+]

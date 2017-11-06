@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLeftMenuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+
+    <im.quar.autolayout.view.AutoLinearLayout
+        android:id="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+         <!--   <com.ben.qqnavigationdemo.view.CircleImageView
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dip"
+                android:src="@drawable/hugh"/>&lt;!&ndash;&ndash;&gt;-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text=""
+                android:textSize="28sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dp"
+            android:text="Android Devoloper"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sss"/>
+    </im.quar.autolayout.view.AutoLinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="5dip"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="15dip"
+            android:paddingTop="10dip"
+            android:text="setting"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="5dip"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="20dip"
+            android:paddingTop="10dip"
+            android:text="night"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</RelativeLayout>

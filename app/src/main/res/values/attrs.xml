@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TypeFaceTextView">
+        <attr name="typeFace" ></attr>
+    </declare-styleable>
+    <declare-styleable name="ClearEditText">
+        <attr name="typeFace" ></attr>
+        <attr name="toUpperCase" ></attr>
+    </declare-styleable>
+
+    <attr name="toUpperCase" format="enum">
+        <enum name="firstLetter" value="1" />
+        <enum name="allLetter" value="2" />
+    </attr>
+    <attr name="typeFace" format="enum">
+        <enum name="AR" value="1" />
+        <enum name="AB" value="2" />
+        <enum name="ARI" value="3" />
+        <enum name="ABI" value="4" />
+
+    </attr>
+    <declare-styleable name="RotateLoading">
+        <attr name="loading_width" format="dimension"/>
+        <attr name="loading_color" format="color"/>
+        <attr name="shadow_position" format="integer"/>
+        <attr name="loading_speed" format="integer"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_checked.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_arrow.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_arrow.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_radio_button.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_radio_button.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_check.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_check.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_placeholder.png",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_placeholder.png"
+    }
+]

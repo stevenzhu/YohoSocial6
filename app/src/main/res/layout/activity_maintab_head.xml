@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<im.quar.autolayout.view.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="?attr/actionBarSize">
+    <im.quar.autolayout.view.AutoRelativeLayout
+        android:id="@+id/headLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <com.yoho.glide.GlideImageView
+            android:id="@+id/headImg"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:shape_type="circle"
+            app:pressed_color="#ffffff"
+            android:src="@drawable/icon_back"/>
+
+        <com.iyoho.social.view.TypeFaceTextView
+            android:id="@+id/headTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="title"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+
+        <im.quar.autolayout.view.AutoFrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <com.yoho.glide.GlideImageView
+                android:id="@+id/headAddImg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:src="@drawable/pull_arrow"/>
+
+            <com.iyoho.social.view.TypeFaceTextView
+                android:id="@+id/headAddText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:text="add"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+            <com.iyoho.social.view.TypeFaceTextView
+                android:id="@+id/headMoreText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:text="more"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+        </im.quar.autolayout.view.AutoFrameLayout>
+    </im.quar.autolayout.view.AutoRelativeLayout>
+</im.quar.autolayout.view.AutoLinearLayout>

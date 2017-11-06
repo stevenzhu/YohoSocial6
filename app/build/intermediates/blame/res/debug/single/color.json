@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\rc_btn_file_list_send.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\IMKit\\build\\intermediates\\bundles\\default\\res\\color\\rc_btn_file_list_send.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_tab_text.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\app\\src\\main\\res\\color\\selector_tab_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\AB053167\\.android\\build-cache\\746c1871ccdc996f61989a55f09213271a76ded5\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\YohoSocial6\\app\\build\\intermediates\\res\\merged\\debug\\color\\white_text_selector.xml",
+        "source": "D:\\AndroidProject\\YohoSocial6\\imgselectlibrary\\build\\intermediates\\bundles\\default\\res\\color\\white_text_selector.xml"
+    }
+]
