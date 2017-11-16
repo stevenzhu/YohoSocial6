@@ -3,23 +3,21 @@ package com.iyoho.social.activity.welcome;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentTabHost;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TabHost;
 import android.widget.TextView;
 
 import com.iyoho.social.R;
 import com.iyoho.social.fragment.tab.HomeFragment;
-import com.iyoho.social.fragment.tab.MineFragment;
+import com.iyoho.social.fragment.tab.MineTabFragment;
+import com.iyoho.social.fragment.tab.SocialTabFragment;
 import com.iyoho.social.view.CustomViewPager;
 
 import java.util.ArrayList;
@@ -45,8 +43,7 @@ public class MainPageActivity extends AppCompatActivity implements View.OnClickL
 
     private List<Fragment> mFragmentList;
     private LinearLayout sendTagLayout;
-    private Class mClass[] = {HomeFragment.class, MineFragment.class};
-    private Fragment mFragment[] = {new HomeFragment(), new MineFragment()};
+    private Fragment mFragment[] = {new SocialTabFragment(), new MineTabFragment()};
     private String mTitles[] = {"搭伴", "我的"};
 
 
@@ -83,20 +80,22 @@ public class MainPageActivity extends AppCompatActivity implements View.OnClickL
         connect("XEb4SeUAR9OK5INscXMpeTBwF6b3ugcqxL5xchQAHbppyT/nVUusULlm1uSFR9wF8icXprLw8TG+mY0O3o46S/TIL0ph7OKF");
 
         socialTabLayout= (AutoLinearLayout) findViewById(R.id.socialTabLayout);
-        socialTabImgView=socialTabLayout.findViewById(R.id.image);
-        socialTabTextView=socialTabLayout.findViewById(R.id.title);
+        socialTabImgView= (ImageView) findViewById(R.id.socialTabImageView);
+        socialTabTextView= (TextView) findViewById(R.id.socialTabTextView);
         mineTabLayout= (AutoLinearLayout) findViewById(R.id.mineTabLayout);
-        mineTabImgView=mineTabLayout.findViewById(R.id.image);
-        mineTabTextView=mineTabLayout.findViewById(R.id.title);
+        mineTabImgView= (ImageView) findViewById(R.id.mineTabImageView);
+        mineTabTextView= (TextView) findViewById(R.id.mineTabTextView);
 
-        socialTabLayout.setBackgroundResource(R.drawable.tab_select);
-        mineTabLayout.setBackgroundResource(R.drawable.tab_nor);
+
         socialTabImgView.setImageResource(R.drawable.tab_counter_light);
         socialTabTextView.setText(mTitles[0]);
         mineTabImgView.setImageResource(R.drawable.tab_center_gray);
         mineTabTextView.setText(mTitles[1]);
+        socialTabTextView.setTextColor(getResources().getColor(R.color.titleColorSelected));
+        mineTabTextView.setTextColor(getResources().getColor(R.color.titleColor));
+
+        socialTabLayout.setBackgroundResource(R.drawable.tab_select);
         mineTabLayout.setBackgroundResource(R.drawable.tab_nor);
-        socialTabImgView.setImageResource(R.drawable.tab_counter_light);
 
         mViewPager = (CustomViewPager) findViewById(R.id.view_pager);
         sendTagLayout= (LinearLayout) findViewById(R.id.sendTagLayout);
@@ -118,6 +117,7 @@ public class MainPageActivity extends AppCompatActivity implements View.OnClickL
             }
         });
         mViewPager.setOffscreenPageLimit(2);
+
         mPanelView = findViewById(R.id.panel);
         mCloseButton = findViewById(R.id.close);
         mIdeaButton = findViewById(R.id.idea_btn);

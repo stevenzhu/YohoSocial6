@@ -8,4 +8,8 @@
     <dimen name="sendIconMarginSize">20px</dimen>
     <dimen name="actionBarSize">110px</dimen>
     <dimen name="tabBarSize">125px</dimen>
+
+    <!--RadioButton-->
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
 </resources>

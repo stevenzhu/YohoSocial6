@@ -22,12 +22,35 @@
             android:orientation="horizontal"
             android:layout_gravity="bottom">
             <im.quar.autolayout.view.AutoLinearLayout
+                android:id="@+id/socialTabLayout"
                 android:layout_width="0dp"
                 android:layout_weight="2"
                 android:layout_height="@dimen/actionBarSize"
                 android:orientation="vertical"
                 android:layout_gravity="center">
-                <include layout="@layout/tab_item" android:id="@+id/socialTabLayout"></include>
+                <im.quar.autolayout.view.AutoLinearLayout
+                                                          android:orientation="vertical"
+                                                          android:layout_width="match_parent"
+                                                          android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/socialTabImageView"
+                        android:src="@drawable/tab_report"
+                        android:layout_width="55px"
+                        android:layout_height="55px"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/socialTabTextView"
+                        android:text="首页"
+                        android:gravity="center"
+                        android:textSize="26px"
+                        android:textColor="@drawable/tab_title_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </im.quar.autolayout.view.AutoLinearLayout>
             </im.quar.autolayout.view.AutoLinearLayout>
 
             <im.quar.autolayout.view.AutoLinearLayout
@@ -41,10 +64,34 @@
             <im.quar.autolayout.view.AutoLinearLayout
                 android:layout_width="0dp"
                 android:layout_weight="2"
+                android:id="@+id/mineTabLayout"
                 android:layout_height="@dimen/actionBarSize"
                 android:orientation="vertical"
                 android:layout_gravity="center">
-                <include layout="@layout/tab_item" android:id="@+id/mineTabLayout"></include>
+                <im.quar.autolayout.view.AutoLinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/mineTabImageView"
+                        android:src="@drawable/tab_report"
+                        android:layout_width="55px"
+                        android:layout_height="55px"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/mineTabTextView"
+                        android:text="首页"
+                        android:gravity="center"
+                        android:textSize="26px"
+                        android:textColor="@drawable/tab_title_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </im.quar.autolayout.view.AutoLinearLayout>
+                <include layout="@layout/tab_item" ></include>
             </im.quar.autolayout.view.AutoLinearLayout>
 
         </im.quar.autolayout.view.AutoLinearLayout>

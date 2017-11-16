@@ -18,4 +18,8 @@
     <string name="error_style_empty">style不能为空</string>
     <string name="error_alias_empty">alias不能为空</string>
     <string name="error_tag_empty">tag不能为空</string>
+
+    <string name="topic_tab">话题</string>
+    <string name="find_tab">发现</string>
+    <string name="circle_tab">圈子</string>
 </resources>

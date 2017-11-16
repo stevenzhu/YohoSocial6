@@ -7,12 +7,13 @@ import com.iyoho.social.R;
 import com.iyoho.social.base.IBaseFragment;
 
 import io.rong.imkit.RongIM;
+
 import com.iyoho.social.R;
 
 import static com.iyoho.social.R.id.tvBtn;
 
 
-public class FindFragment extends IBaseFragment {
+public class CircleFragment extends IBaseFragment {
     private static final String TAG = "MineFragment";
 
     @Override
@@ -23,7 +24,7 @@ public class FindFragment extends IBaseFragment {
     @Override
     public void initView(View view) {
         Button btn=view.findViewById(tvBtn);
-        btn.setText("find");
+        btn.setText("circle");
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

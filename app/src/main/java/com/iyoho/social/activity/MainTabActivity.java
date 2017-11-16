@@ -15,7 +15,7 @@ import com.iyoho.social.Entry.ColorShades;
 import com.iyoho.social.Entry.MessageEvent;
 import com.iyoho.social.R;
 import com.iyoho.social.base.IBaseActivity;
-import com.iyoho.social.fragment.tab.FindFragment;
+import com.iyoho.social.fragment.tab.SocialTabFragment;
 import com.iyoho.social.fragment.tab.HomeFragment;
 import com.iyoho.social.fragment.tab.MessageFragment;
 import com.iyoho.social.utils.EventBusUtils;
@@ -126,7 +126,7 @@ public class MainTabActivity extends IBaseActivity implements TabHost.OnTabChang
                 case 2:
                     msgCount.setText("");
                     msgCount.setVisibility(View.GONE);
-                    mTabHost.addTab(messageTabSpec, FindFragment.class, bundle);
+                    mTabHost.addTab(messageTabSpec, SocialTabFragment.class, bundle);
                     break;
             }
         }

@@ -1,6 +1,5 @@
 package com.iyoho.social.activity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -16,15 +15,11 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TabHost;
-import android.widget.TabWidget;
 import android.widget.TextView;
 
-import com.iyoho.social.Entry.MessageEvent;
 import com.iyoho.social.R;
-import com.iyoho.social.fragment.tab.FindFragment;
 import com.iyoho.social.fragment.tab.HomeFragment;
-import com.iyoho.social.fragment.tab.MessageFragment;
-import com.iyoho.social.fragment.tab.MineFragment;
+import com.iyoho.social.fragment.tab.MineTabFragment;
 import com.iyoho.social.view.CustomViewPager;
 
 import java.util.ArrayList;
@@ -41,8 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CustomViewPager mViewPager;
     private List<Fragment> mFragmentList;
     private LinearLayout sendTagLayout;
-    private Class mClass[] = {HomeFragment.class,  null, MineFragment.class};
-    private Fragment mFragment[] = {new HomeFragment(),null, new MineFragment()};
+    private Class mClass[] = {HomeFragment.class,  null, MineTabFragment.class};
+    private Fragment mFragment[] = {new HomeFragment(),null, new MineTabFragment()};
     private String mTitles[] = {"搭伴", "我的"};
 
     private int mImages[] = {

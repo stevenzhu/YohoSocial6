@@ -15,4 +15,7 @@
     <color name="titleColorSelected">#F54D33</color>
     <color name="add_bg_normal">#ff8200</color>
     <color name="add_bg_pressed">#d46403</color>
+
+    <color name="radio_button_selected_color">#ffffff</color>
+    <color name="radio_button_unselected_color">#23B4C0</color>
 </resources>

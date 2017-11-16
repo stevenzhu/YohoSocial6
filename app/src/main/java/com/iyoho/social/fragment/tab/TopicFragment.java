@@ -1,15 +1,19 @@
 package com.iyoho.social.fragment.tab;
 
 import android.view.View;
+import android.widget.Button;
 
 import com.iyoho.social.R;
-import com.iyoho.social.activity.MainTabActivity;
 import com.iyoho.social.base.IBaseFragment;
 
 import io.rong.imkit.RongIM;
 
+import com.iyoho.social.R;
 
-public class MineFragment extends IBaseFragment {
+import static com.iyoho.social.R.id.tvBtn;
+
+
+public class TopicFragment extends IBaseFragment {
     private static final String TAG = "MineFragment";
 
     @Override
@@ -19,7 +23,9 @@ public class MineFragment extends IBaseFragment {
 
     @Override
     public void initView(View view) {
-        view.findViewById(R.id.tvBtn).setOnClickListener(new View.OnClickListener() {
+        Button  btn=view.findViewById(tvBtn);
+        btn.setText("Topic");
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 RongIM.getInstance().startPrivateChat(getActivity(),"26594","ttlltt");
