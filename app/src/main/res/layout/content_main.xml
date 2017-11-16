@@ -3,86 +3,112 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#00000000">
 
     <android.support.v4.app.FragmentTabHost
         android:id="@android:id/tabhost"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#00000000">
         <im.quar.autolayout.view.AutoFrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            >
             <im.quar.autolayout.view.AutoLinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="#00000000">
 
                 <im.quar.autolayout.view.AutoFrameLayout
                     android:id="@android:id/tabcontent"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:layout_weight="0" />
+                    android:layout_weight="0"
+                    android:background="#00000000"/>
 
                 <com.iyoho.social.view.CustomViewPager
                     android:id="@+id/view_pager"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1px"
-                    android:background="#cccccc"/>
+                    android:layout_weight="1"
+                    android:background="#00000000"/>
+
                 <im.quar.autolayout.view.AutoFrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/actionBarSize">
-                    <TabWidget
-                        android:id="@android:id/tabs"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/actionBarSize" />
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:background="#00000000"
+                    >
                     <im.quar.autolayout.view.AutoLinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/actionBarSize"
-                        android:background="#00000000"
-                        android:orientation="horizontal">
-                        <im.quar.autolayout.view.AutoLinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="@dimen/actionBarSize"
-                            android:layout_weight="2"
-                            android:background="#00000000"></im.quar.autolayout.view.AutoLinearLayout>
-
-                        <im.quar.autolayout.view.AutoLinearLayout
-                            android:id="@+id/sendTagLayout"
-                            android:layout_width="0dp"
-                            android:layout_height="@dimen/actionBarSize"
-                            android:layout_weight="1"
-                            android:background="#ffffff"
-                            android:clickable="true"
-                            android:orientation="horizontal"
-                            android:gravity="center"
-                            android:paddingBottom="6dp"
-                            android:paddingLeft="10dp"
-                            android:paddingRight="10dp"
-                            android:paddingTop="6dp">
-                            <im.quar.autolayout.view.AutoLinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="@drawable/tabbar_compose_bg_add_selector"
-                                android:gravity="center"
-                                >
-                                <ImageView
-                                    android:layout_width="75px"
-                                    android:layout_height="75px"
-                                    android:src="@drawable/tabbar_compose_icon_add_selector"/>
-                            </im.quar.autolayout.view.AutoLinearLayout>
-                        </im.quar.autolayout.view.AutoLinearLayout>
-                        <im.quar.autolayout.view.AutoLinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="@dimen/actionBarSize"
-                            android:layout_weight="2"
-                            android:background="#00000000"></im.quar.autolayout.view.AutoLinearLayout>
+                        android:layout_width="wrap_content"
+                        android:layout_height="101px"
+                        android:orientation="vertical"
+                        android:gravity="bottom"
+                        android:layout_gravity="bottom"
+                        android:background="#00000000">
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="#cccccc"/>
+                        <TabWidget
+                            android:id="@android:id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/actionBarSize" />
                     </im.quar.autolayout.view.AutoLinearLayout>
+
+
                 </im.quar.autolayout.view.AutoFrameLayout>
             </im.quar.autolayout.view.AutoLinearLayout>
+
+            <im.quar.autolayout.view.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:orientation="horizontal"
+                android:clickable="false"
+                android:layout_gravity="bottom"
+                android:gravity="bottom">
+                <im.quar.autolayout.view.AutoLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100px"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:clickable="false"></im.quar.autolayout.view.AutoLinearLayout>
+
+                <im.quar.autolayout.view.AutoLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120px"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:paddingBottom="3dp">
+                    <im.quar.autolayout.view.AutoLinearLayout
+                        android:id="@+id/sendTagLayout"
+                        android:layout_width="120px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/tabbar_compose_bg_add_selector"
+                        android:gravity="center"
+                        >
+                        <ImageView
+                            android:layout_width="75px"
+                            android:layout_height="75px"
+                            android:src="@drawable/tabbar_compose_icon_add_selector"/>
+                    </im.quar.autolayout.view.AutoLinearLayout>
+                </im.quar.autolayout.view.AutoLinearLayout>
+                <im.quar.autolayout.view.AutoLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100px"
+                    android:layout_weight="1"
+                    android:background="#00000000"></im.quar.autolayout.view.AutoLinearLayout>
+            </im.quar.autolayout.view.AutoLinearLayout>
+
             <include layout="@layout/view_add"/>
         </im.quar.autolayout.view.AutoFrameLayout>
     </android.support.v4.app.FragmentTabHost>
