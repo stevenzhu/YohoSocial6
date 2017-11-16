@@ -21,7 +21,7 @@ public class MessageFragment extends IBaseFragment {
 
     @Override
     public void initView(View view) {
-        conversationListFragment= (ConversationListFragment) getActivity().getSupportFragmentManager().findFragmentById(R.id.conversationListFragment);
+        //conversationListFragment= (ConversationListFragment) getActivity().getSupportFragmentManager().findFragmentById(R.id.conversationlist);
     }
 
     @Override
@@ -31,15 +31,15 @@ public class MessageFragment extends IBaseFragment {
 
     @Override
     public void initData() {
-        Uri uri = Uri.parse("rong://" + getActivity().getApplicationInfo().packageName).buildUpon()
-                .appendPath("conversationListFragment")
+       /* Uri uri = Uri.parse("rong://" + getActivity().getApplicationInfo().packageName).buildUpon()
+                .appendPath("conversationlist")
                 .appendQueryParameter(Conversation.ConversationType.PRIVATE.getName(), "false") //设置私聊会话是否聚合显示
                 .appendQueryParameter(Conversation.ConversationType.GROUP.getName(), "false")//群组
                 .appendQueryParameter(Conversation.ConversationType.PUBLIC_SERVICE.getName(), "false")//公共服务号
                 .appendQueryParameter(Conversation.ConversationType.APP_PUBLIC_SERVICE.getName(), "false")//订阅号
                 .appendQueryParameter(Conversation.ConversationType.SYSTEM.getName(), "true")//系统
                 .build();
-        conversationListFragment.setUri(uri);
+        conversationListFragment.setUri(uri);*/
     }
 
     @Override

@@ -1,6 +1,5 @@
-package com.iyoho.social.activity;
+package com.iyoho.social.activity.welcome;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -16,41 +15,40 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TabHost;
-import android.widget.TabWidget;
 import android.widget.TextView;
 
-import com.iyoho.social.Entry.MessageEvent;
 import com.iyoho.social.R;
-import com.iyoho.social.fragment.tab.FindFragment;
 import com.iyoho.social.fragment.tab.HomeFragment;
-import com.iyoho.social.fragment.tab.MessageFragment;
 import com.iyoho.social.fragment.tab.MineFragment;
 import com.iyoho.social.view.CustomViewPager;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import im.quar.autolayout.view.AutoLinearLayout;
 import io.rong.imkit.RongIM;
 import io.rong.imlib.RongIMClient;
 
 import static io.rong.imkit.utils.SystemUtils.getCurProcessName;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener,View.OnTouchListener,TabHost.OnTabChangeListener{
+public class MainPageActivity extends AppCompatActivity implements View.OnClickListener,View.OnTouchListener{
 
-    private FragmentTabHost mTabHost;
+   // private FragmentTabHost mTabHost;
     private CustomViewPager mViewPager;
+    private AutoLinearLayout socialTabLayout;
+    private ImageView socialTabImgView;
+    private TextView socialTabTextView;
+    private int tabId =0;
+    private AutoLinearLayout mineTabLayout;
+    private ImageView mineTabImgView;
+    private TextView mineTabTextView;
+
     private List<Fragment> mFragmentList;
     private LinearLayout sendTagLayout;
-    private Class mClass[] = {HomeFragment.class,  null, MineFragment.class};
-    private Fragment mFragment[] = {new HomeFragment(),null, new MineFragment()};
+    private Class mClass[] = {HomeFragment.class, MineFragment.class};
+    private Fragment mFragment[] = {new HomeFragment(), new MineFragment()};
     private String mTitles[] = {"搭伴", "我的"};
 
-    private int mImages[] = {
-            R.drawable.tab_home,
-           // R.drawable.tab_report,
-           // R.drawable.tab_message,
-            R.drawable.tab_mine
-    };
 
     private View mPanelView;
     private View mCloseButton;
@@ -70,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_page);
         init();
     }
 
@@ -84,35 +82,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         connect("XEb4SeUAR9OK5INscXMpeTBwF6b3ugcqxL5xchQAHbppyT/nVUusULlm1uSFR9wF8icXprLw8TG+mY0O3o46S/TIL0ph7OKF");
 
-        mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
+        socialTabLayout= (AutoLinearLayout) findViewById(R.id.socialTabLayout);
+        socialTabImgView=socialTabLayout.findViewById(R.id.image);
+        socialTabTextView=socialTabLayout.findViewById(R.id.title);
+        mineTabLayout= (AutoLinearLayout) findViewById(R.id.mineTabLayout);
+        mineTabImgView=mineTabLayout.findViewById(R.id.image);
+        mineTabTextView=mineTabLayout.findViewById(R.id.title);
+
+        socialTabLayout.setBackgroundResource(R.drawable.tab_select);
+        mineTabLayout.setBackgroundResource(R.drawable.tab_nor);
+        socialTabImgView.setImageResource(R.drawable.tab_counter_light);
+        socialTabTextView.setText(mTitles[0]);
+        mineTabImgView.setImageResource(R.drawable.tab_center_gray);
+        mineTabTextView.setText(mTitles[1]);
+        mineTabLayout.setBackgroundResource(R.drawable.tab_nor);
+        socialTabImgView.setImageResource(R.drawable.tab_counter_light);
+
         mViewPager = (CustomViewPager) findViewById(R.id.view_pager);
         sendTagLayout= (LinearLayout) findViewById(R.id.sendTagLayout);
         mFragmentList = new ArrayList<Fragment>();
 
-        mTabHost.setup(this, getSupportFragmentManager(), android.R.id.tabcontent);
-        mTabHost.getTabWidget().setDividerDrawable(null);
         for (int i = 0; i < mFragment.length; i++) {
-                TabHost.TabSpec tabSpec = mTabHost.newTabSpec(i+"").setIndicator(getTabView(i));
-                mTabHost.addTab(tabSpec, mClass[i], null);
-                //if(i!=2){
-                    if(i!=1){
-                    mFragmentList.add(mFragment[i]);
-
-                    }
-
-               mTabHost.getTabWidget().getChildAt(i).setBackgroundResource(R.drawable.tab_main_bg);
-            if(i==1){
-                mTabHost.getTabWidget().getChildAt(i).getLayoutParams().width = 100;
-            }
+            mFragmentList.add(mFragment[i]);
 
         }
-
-//        final TabWidget tabWidget = mTabHost.getTabWidget();
-//        for (int i =0; i < tabWidget.getChildCount(); i++) {
-//            tabWidget.getChildAt(i).getLayoutParams().height = 60;
-//            tabWidget.getChildAt(i).getLayoutParams().width = 65;
-//        }
-
         mViewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
@@ -124,7 +117,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return mFragmentList.size();
             }
         });
-        //mViewPager.setOffscreenPageLimit(4);
         mViewPager.setOffscreenPageLimit(2);
         mPanelView = findViewById(R.id.panel);
         mCloseButton = findViewById(R.id.close);
@@ -139,48 +131,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    private View getTabView(int index) {
-        View view =null;
-        if(index==0){
-            view = LayoutInflater.from(this).inflate(R.layout.tab_item, null);
-            ImageView image = (ImageView) view.findViewById(R.id.image);
-            TextView title = (TextView) view.findViewById(R.id.title);
-            image.setImageResource(mImages[0]);
-            title.setText(mTitles[0]);
-        }else if(index==1){
-//            view = LayoutInflater.from(this).inflate(R.layout.tab_item, null);
-//            ImageView image = (ImageView) view.findViewById(R.id.image);
-//            TextView title = (TextView) view.findViewById(R.id.title);
-//            image.setImageResource(mImages[1]);
-//            title.setText(mTitles[1]);
-            view = LayoutInflater.from(this).inflate(R.layout.tab_center_item, null);
-        }else if(index==2){
-            //view = LayoutInflater.from(this).inflate(R.layout.tab_center_item, null);
-            view = LayoutInflater.from(this).inflate(R.layout.tab_item, null);
-            ImageView image = (ImageView) view.findViewById(R.id.image);
-            TextView title = (TextView) view.findViewById(R.id.title);
-            image.setImageResource(mImages[1]);
-            title.setText(mTitles[1]);
-        }
-//        else if(index==3){
-//            view = LayoutInflater.from(this).inflate(R.layout.tab_item, null);
-//            ImageView image = (ImageView) view.findViewById(R.id.image);
-//            TextView title = (TextView) view.findViewById(R.id.title);
-//            image.setImageResource(mImages[2]);
-//            title.setText(mTitles[2]);
-//        }else if(index==4){
-//            view = LayoutInflater.from(this).inflate(R.layout.tab_item, null);
-//            ImageView image = (ImageView) view.findViewById(R.id.image);
-//            TextView title = (TextView) view.findViewById(R.id.title);
-//            image.setImageResource(mImages[3]);
-//            title.setText(mTitles[3]);
-//        }
-
-
-
-
-        return view;
-    }
 
     private void initEvent() {
         sendTagLayout.setOnClickListener(this);
@@ -192,7 +142,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mLbsButton.setOnTouchListener(this);
         mReviewButton.setOnTouchListener(this);
         mMoreButton.setOnTouchListener(this);
-        mTabHost.setOnTabChangedListener(this);
+        socialTabLayout.setOnClickListener(this);
+        mineTabLayout.setOnClickListener(this);
 
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -202,17 +153,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onPageSelected(int position) {
+                tabId=position;
                 if(position==0){
-                    mTabHost.setCurrentTab(0);
+                    socialTabLayout.setBackgroundResource(R.drawable.tab_select);
+                    mineTabLayout.setBackgroundResource(R.drawable.tab_nor);
+                    socialTabImgView.setImageResource(R.drawable.tab_counter_light);
+                    socialTabTextView.setTextColor(getResources().getColor(R.color.titleColorSelected));
+                    mineTabImgView.setImageResource(R.drawable.tab_center_gray);
+                    mineTabTextView.setTextColor(getResources().getColor(R.color.titleColor));
                 }else if(position==1){
-                    mTabHost.setCurrentTab(2);
+                    mineTabLayout.setBackgroundResource(R.drawable.tab_select);
+                    socialTabLayout.setBackgroundResource(R.drawable.tab_nor);
+                    socialTabImgView.setImageResource(R.drawable.tab_counter_gray);
+                    socialTabTextView.setTextColor(getResources().getColor(R.color.titleColor));
+                    mineTabImgView.setImageResource(R.drawable.tab_center_light);
+                    mineTabTextView.setTextColor(getResources().getColor(R.color.titleColorSelected));
                 }
-//                else if(position==2){
-//                    mTabHost.setCurrentTab(3);
-//                }else if(position==3){
-//                    mTabHost.setCurrentTab(4);
-//                }
-                //
             }
 
             @Override
@@ -236,6 +192,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.close:// 关闭按钮
                 if (mPanelView.getVisibility() == View.VISIBLE) {
                     closePanelView();
+                }
+                break;
+            case R.id.socialTabLayout:
+                if(tabId==1){
+                    mViewPager.setCurrentItem(0);
+                }
+                break;
+            case R.id.mineTabLayout:
+                if(tabId==0){
+                mViewPager.setCurrentItem(1);
                 }
                 break;
         }
@@ -323,25 +289,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onBackPressed();
     }
 
-
-    @Override
-    public void onTabChanged(String tabId) {
-        System.out.println("-----tab-----"+tabId);
-        //if(!tabId.equals("2")){
-            if(!tabId.equals("1")){
-            if(tabId.equals("0")){
-                mViewPager.setCurrentItem(0);
-            }else if(tabId.equals("2")){
-                mViewPager.setCurrentItem(1);
-            }
-//            else if(tabId.equals("3")){
-//                mViewPager.setCurrentItem(2);
-//            }else if(tabId.equals("4")){
-//                mViewPager.setCurrentItem(3);
-//            }
-
-        }
-    }
 
     private void connect(String token) {
 

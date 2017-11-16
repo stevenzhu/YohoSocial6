@@ -97,7 +97,6 @@ public class MainTabActivity extends IBaseActivity implements TabHost.OnTabChang
         mTabHost.setCurrentTab(0);
         //去掉在版本中的横线,FragmentTabHost在低版本中,每个Tab之间会有条横线
         mTabHost.getTabWidget().setShowDividers(LinearLayout.SHOW_DIVIDER_NONE);
-
         initBottomNavigationView();
 }
     private void initBottomNavigationView() {

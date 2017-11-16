@@ -56,7 +56,7 @@ public class WelcomeActivity extends IBaseActivity {
                         new Handler().postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                IBaseActivity.start(WelcomeActivity.this, MainActivity.class,null);
+                                IBaseActivity.start(WelcomeActivity.this, MainPageActivity.class,null);
                                 finish();
                             }
                         },1000);

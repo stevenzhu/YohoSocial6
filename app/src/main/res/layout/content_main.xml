@@ -83,7 +83,7 @@
                 <im.quar.autolayout.view.AutoLinearLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="120px"
+                    android:layout_height="@dimen/tabBarSize"
                     android:background="#00000000"
                     android:clickable="true"
                     android:orientation="horizontal"
@@ -91,7 +91,7 @@
                     android:paddingBottom="3dp">
                     <im.quar.autolayout.view.AutoLinearLayout
                         android:id="@+id/sendTagLayout"
-                        android:layout_width="120px"
+                        android:layout_width="@dimen/tabBarSize"
                         android:layout_height="match_parent"
                         android:background="@drawable/tabbar_compose_bg_add_selector"
                         android:gravity="center"

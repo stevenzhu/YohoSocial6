@@ -6,5 +6,6 @@
     <dimen name="fab_margin">32px</dimen>
     <dimen name="sendIconSize">120px</dimen>
     <dimen name="sendIconMarginSize">20px</dimen>
-    <dimen name="actionBarSize">100px</dimen>
+    <dimen name="actionBarSize">110px</dimen>
+    <dimen name="tabBarSize">125px</dimen>
 </resources>
