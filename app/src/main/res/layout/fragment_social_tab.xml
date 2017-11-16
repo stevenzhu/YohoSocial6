@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#00000000"
-    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
 
-    <!-- 将tabhost的tabcontent隐藏，用viewPage填充 -->
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:orientation="vertical"
-    android:background="#6655ff"></LinearLayout>
-    <android.support.v4.view.ViewPager
-        android:id="@+id/view_pager"
+    <Button
+        android:text="AAAfd"
+        android:id="@+id/tvBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:textSize="24sp"/>
+    <im.quar.autolayout.view.AutoLinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="visible"/>
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#ff6655">
 
+    </im.quar.autolayout.view.AutoLinearLayout>
+     <com.iyoho.social.view.CustomViewPager
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:id="@+id/view_pager"></com.iyoho.social.view.CustomViewPager>
 </LinearLayout>

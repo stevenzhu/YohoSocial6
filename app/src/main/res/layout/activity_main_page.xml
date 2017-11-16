@@ -3,9 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     android:orientation="vertical">
-    <im.quar.autolayout.view.AutoLinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="bottom"
@@ -14,11 +13,12 @@
         <com.iyoho.social.view.CustomViewPager
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
 
         <im.quar.autolayout.view.AutoLinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/actionBarSize"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="bottom">
             <im.quar.autolayout.view.AutoLinearLayout
@@ -97,7 +97,7 @@
         </im.quar.autolayout.view.AutoLinearLayout>
 
 
-    </im.quar.autolayout.view.AutoLinearLayout>
+    </LinearLayout>
         <im.quar.autolayout.view.AutoLinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

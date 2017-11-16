@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.iyoho.social.R;
@@ -13,15 +15,25 @@ import com.iyoho.social.view.CustomViewPager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SocialTabFragment extends IBaseFragment {
+public class SocialTabFragment extends Fragment implements View.OnClickListener{
     public static List<Fragment> fragments;
     private ViewPager mViewPager;
+
     @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View  view = inflater.inflate(initLayout(), container, false);
+       initView(view);
+       initData();
+        initEvent();
+        return view;
+    }
+
+
     public int initLayout() {
         return R.layout.fragment_social_tab;
     }
 
-    @Override
+
     public void initView(View view) {
         fragments = new ArrayList<>();
         TopicFragment topicFragment = new TopicFragment();
@@ -57,12 +69,12 @@ public class SocialTabFragment extends IBaseFragment {
         mViewPager.setOffscreenPageLimit(3);
     }
 
-    @Override
+
     public void initData() {
 
     }
 
-    @Override
+
     public void initEvent() {
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -82,9 +94,9 @@ public class SocialTabFragment extends IBaseFragment {
         });
     }
 
+
     @Override
     public void onClick(View v) {
 
     }
-
 }
